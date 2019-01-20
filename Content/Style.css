@@ -1,0 +1,124 @@
+﻿.highlight {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+.bd-lead {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.bd-clipboard {
+    position: relative;
+    float: right;
+}
+
+.bd-sidebar .nav > .active:hover > a, .bd-sidebar .nav > .active > a {
+    font-weight: 500;
+    color: rgba(0,0,0,.85);
+    background-color: transparent;
+}
+
+.btn-clipboard {
+    position: absolute;
+    top: .5rem;
+    right: 3.5rem;
+    z-index: 10;
+    display: block;
+    padding: .25rem .5rem;
+    font-size: 75%;
+    color: #818a91;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    border-radius: .25rem;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .bd-clipboard {
+        display: block;
+    }
+}
+
+.bd-navbar {
+    min-height: 4rem;
+    background-color: #4cc2c0;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.btn-bd-download {
+    font-weight: 500;
+    color: #ffe484;
+    border-color: #ffe484;
+}
+
+    .btn-bd-download:hover {
+        color: #fff;
+        background-color: #ffe484;
+        border-color: #ffe484;
+    }
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.bd-toc-item.active > .bd-sidenav {
+    display: block;
+}
+
+.bd-toc-link {
+    display: block;
+    padding: .25rem 1.5rem;
+    font-weight: 500;
+    color: rgba(0,0,0,.65);
+}
+
+.bd-sidebar .nav > li > a {
+    display: block;
+    padding: .25rem 1.5rem;
+    font-size: 90%;
+    color: rgba(0,0,0,.65);
+}
+
+.bd-search {
+    position: relative;
+    padding: 1rem 15px;
+    margin-right: -15px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.bd-links {
+    margin-top: 20px;
+}
+
+
+pre {
+    margin-top: 0;
+    margin-bottom: -2rem;
+    overflow: auto;
+    -ms-overflow-style: scrollbar;
+}
+
+
+.bd-callout-warning {
+    border-left-color: #f0ad4e;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
